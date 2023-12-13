@@ -1,10 +1,11 @@
 /* Import the solutions for all the days. */
-mod day1;
-mod day5part2;
-mod day10part1;
+mod day1bothstars;
+mod day5twostar;
+mod day10onestar;
+mod day12twostar;
 mod helpers;
 
 fn main() {
-    day10part1::onestar_solution();
+    day12twostar::twostar_solution();
 }
 
